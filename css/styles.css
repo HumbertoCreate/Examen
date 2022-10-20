@@ -147,3 +147,22 @@ body
     text-decoration: none;
     color: red;
 }
+
+@media screen and (max-width: 768px)
+{
+    .cntLogin
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btnLogin input
+    {
+        width: 90%;
+    }
+
+    .btnLogin
+    {
+        justify-content: center;
+    }
+}
