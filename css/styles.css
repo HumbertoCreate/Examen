@@ -1,0 +1,107 @@
+html
+{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Diseño de contenedor */
+
+.cntLogin
+{
+    margin: 3rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 5rem;
+    box-shadow: 2px 9px 16px 2px rgba(0,0,0,0.75);
+}
+
+/* Diseño de imagen */
+
+.imgContenedor img
+{
+    width: 60rem;
+}
+
+.imgContenedor
+{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Diseño de login */
+
+.logContenedor
+{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Diseño de sing in */
+
+.cntSingWith
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.btnRed
+{
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Diseño de inputs */
+
+.cntFormulario input
+{
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.cntChbLink
+{
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cntChb input, label
+{
+    cursor: pointer;
+}
+
+.cntChbLink a
+{
+    text-decoration: none;
+    color: #000;
+}
