@@ -165,4 +165,9 @@ body
     {
         justify-content: center;
     }
+
+    .cntLogin
+    {
+        box-shadow: 2px 9px 16px 2px rgba(0,0,0,0);
+    }
 }
