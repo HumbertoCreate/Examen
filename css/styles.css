@@ -79,8 +79,17 @@ body
 
 /* Diseño de inputs */
 
+.cntFormulario
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 .cntFormulario input
 {
+    width: 20rem;
     margin: 1rem;
     padding: 0.5rem;
     border-radius: 0.3rem;
@@ -104,4 +113,37 @@ body
 {
     text-decoration: none;
     color: #000;
+}
+
+/* Diseño de boton */
+
+.btnLogin
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.btnLogin input
+{
+    width: 5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.8rem;
+    color: #fff;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.cntRegistro
+{
+    display: flex;
+    align-items: center;
+}
+
+.cntRegistro a
+{
+    text-decoration: none;
+    color: red;
 }
